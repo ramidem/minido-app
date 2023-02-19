@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
   res.setHeader("Content-Type", "application/json");
   res.end(
     JSON.stringify({
-      message: "Hello, World@",
+      message: "Hello, World!",
     })
   );
 });
